@@ -1,0 +1,34 @@
+New-Item -ItemType Directory -Force recetas/Colombia | Out-Null
+Set-Content recetas/Colombia/arroz_coco.html @'
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Arroz con Coco (Colombia)</title>
+</head>
+<body>
+  <h1>Arroz con Coco</h1>
+  <p>Receta tradicional de la costa Caribe colombiana.</p>
+
+  <h2>Ingredientes</h2>
+  <ul>
+    <li>2 tazas de arroz</li>
+    <li>400 ml de leche de coco (o leche+agua de coco)</li>
+    <li>2 cdas de azúcar morena</li>
+    <li>1 cda de aceite o mantequilla</li>
+    <li>Sal al gusto</li>
+    <li>Opcional: uvas pasas</li>
+  </ul>
+
+  <h2>Preparación</h2>
+  <ol>
+    <li>Carameliza el azúcar con el aceite/mantequilla.</li>
+    <li>Añade la leche de coco y sal; cuando hierva, agrega el arroz.</li>
+    <li>Cocina hasta que se absorba; tapa y deja 15–20 min a fuego bajo.</li>
+    <li>Opcional: incorpora pasas al final y reposa unos minutos.</li>
+  </ol>
+
+  <p><a href="../../index.html">← Volver al inicio</a></p>
+</body>
+</html>
+'@
